@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "https://www.amazon.com/?tag=cbextension-20"
+      }
+    },
+    "condition": {
+      "urlFilter": "www.amazon.com/checkout/entry/cart?oldCustomerId=",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

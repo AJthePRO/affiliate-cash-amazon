@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Affiliate Commission</title>
+  <style>
+    body {
+      width: 200px;
+      height: 150px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #FF9900;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #e67e22;
+    }
+  </style>
+</head>
+<body>
+  <h3>Affiliate Commission</h3>
+  <p>Open affiliate link to track commissions and earn cashback! Sign in required for full functionality.</p>
+  <button id="openAffiliateTab">Open Affiliate Tab</button>
+  <button id="closeAffiliateTab">Close Affiliate Tab</button>
+  <button id="signInButton">Sign In with Google</button>
+
+  <!-- Include Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js"></script>
+
+  <!-- Include your scripts -->
+  <script src="firebase-config.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
